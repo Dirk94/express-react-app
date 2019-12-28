@@ -11,5 +11,9 @@
     "express": "^4.17.1",
     "ts-node": "^8.5.4",
     "typescript": "^3.7.4"
+  },
+  "scripts": {
+    "start": "npx ts-node index.ts",
+    "build": "npx tsc"
   }
 }
